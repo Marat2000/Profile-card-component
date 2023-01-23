@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+
+
+
+html
+{
+    font-family: 'Kumbh Sans', sans-serif;
+    display:grid;
+    place-items:center;
+    font-weight: 700;
+    font-size:18px;
+    color:hsl(229, 23%, 23%);
+    background-image: url('images/bg-pattern-bottom.svg');
+    background-color: hsl(185, 75%, 39%);
+    background-size: cover;
+    min-height:100vh;
+
+}
+
+.grey
+{
+    color:hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: 0.7rem;
+    
+}
+
+
+.age
+{
+   margin-left:0.5rem;
+   font-size:.9rem;
+    
+}
+
+
+.city
+{
+    font-size:.8rem;
+    margin-top:.4rem;
+}
+
+
+main
+{
+    background-color:white;
+    padding:5rem 4rem 1rem 4rem;
+    width:12rem;
+    display: grid;
+    place-items: center;
+    place-content:center ;
+    max-width: 12rem;
+    border-radius: 1rem;
+    background-image: url('images/bg-pattern-card.svg');
+    background-repeat:no-repeat;
+    background-size: 100% 7.5rem ;
+    
+}
+
+.numbers
+{
+    display:flex;
+    width: 12rem;
+    justify-content: center;
+}
+
+.numbers div
+{
+    display:grid;
+    place-items:center;
+    margin:1.6rem;
+}
+
+hr
+{
+    margin-top:2rem;
+    width:20rem;
+    border:0;
+    height: 0.05rem;
+    background-color: hsl(0,0%,59%);
+}
+
+img
+{
+    border-radius: 50%;
+    width:5rem;
+    border:white 0.3rem solid;
+    margin-bottom:1rem;
+
+}
+
